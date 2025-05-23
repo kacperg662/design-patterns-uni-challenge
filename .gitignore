@@ -1,0 +1,47 @@
+### IDE ###
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.settings/
+.project
+.classpath
+bin/
+
+# VS Code
+.vscode/
+
+### Compiled files ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Build tools ###
+# Maven
+target/
+log/
+
+# Gradle
+.gradle/
+build/
+
+### System files ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+logs/
+
+### OS ###
+*.swp
+*.swo
+
+### Other ###
+*.orig
+*~
