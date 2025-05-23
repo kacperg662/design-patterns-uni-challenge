@@ -1,0 +1,6 @@
+Observer pattern
+
+It is a behavioral design pattern used to create a one-to-many dependency between objects. This means that when one object changes its state, all its dependents (observers) are notified and updated automatically.
+
+My example:
+Game mechanic: when player enters or leaves a room, the room acting as observer is notified and updates itself accordingly.
