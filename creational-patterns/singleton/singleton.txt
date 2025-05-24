@@ -1,0 +1,6 @@
+Singleton pattern
+
+A singleton is a creational design pattern that ensures a class has only one instance and provides a global access point to it.
+
+My example:
+Game manager manages whole game and if there where more than one manager it would conflict with already made manager.
