@@ -1,0 +1,5 @@
+Factory Method
+It is a creational design pattern that lets a superclass define an interface for creating objects while allowing subclasses to alter the type of objects that will be created. Instead of calling a constructor directly, the pattern uses a dedicated factory method (like create()) to handle instantiation, keeping the code flexible and decoupled.
+
+My example:
+Using one class object to create different items objects.
