@@ -1,6 +1,0 @@
-Facade Pattern
-
-Simplifies complex systems by providing a unified interface to a set of subsystems. It hides intricate details, making the system easier to use.
-
-My example:
-A LoginSystem that bundles authentication and authorization into a single login() method.
