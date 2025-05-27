@@ -1,5 +1,0 @@
-Decorator pattern
-The Decorator is a structural design pattern that allows dynamic addition of new behaviors to objects by wrapping them in special decorator classes.
-
-My example:
-Sword system, where decorator dynamically modifies sword's rarity and damage.
