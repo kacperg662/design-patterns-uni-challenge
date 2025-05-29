@@ -1,0 +1,5 @@
+Prototype Pattern
+The Prototype is a creational design pattern that allows creating new objects by copying existing instances (prototypes) instead of using constructors.
+
+My example:
+Cloning a sword instead of making new one from scratch.
