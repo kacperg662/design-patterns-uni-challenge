@@ -1,0 +1,5 @@
+Iterator Pattern
+The Iterator is a behavioral design pattern that provides a way to access elements of a collection sequentially without exposing its underlying representation (e.g., list, tree, graph).
+
+My example:
+Creating iterator for list containing students, then using it to count them and display their names.
