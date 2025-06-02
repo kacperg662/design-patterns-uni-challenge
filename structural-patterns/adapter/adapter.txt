@@ -1,0 +1,5 @@
+Adapter Pattern
+The Adapter is a structural design pattern that bridges incompatible interfaces by converting one interface into another. It acts like a "translator" allowing classes with different interfaces to collaborate.
+
+My example:
+LegacyPrinterAdapter class which "translates" old LegacyPrinter's method to adapt to Printer Interface method.
