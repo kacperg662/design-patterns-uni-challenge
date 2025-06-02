@@ -1,0 +1,3 @@
+public enum Calculation {
+    MULTIPLY, MULTIPLY_TWO_TIMES, MULTIPLY_THREE_TIMES
+}

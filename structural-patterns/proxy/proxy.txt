@@ -1,0 +1,5 @@
+Proxy Pattern 
+It is a structural design pattern that acts as a controlled substitute for another object (called the "real subject"). It implements the same interface as the real object but adds extra functionality.
+
+My example:
+CalculationsProxy wraps CalculationsData and passes calculations to real object, caches last result and adds a helper method displayResult().
