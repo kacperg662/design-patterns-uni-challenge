@@ -1,0 +1,5 @@
+Command Pattern
+The Command Pattern is a behavioral design pattern that turns a request into a standalone object that contains all the information about the request — including the method to call, the receiver of the request, and any parameters.
+
+My example:
+Concrete commands that extend abstract class Command invoke execute() method with specific behavior.
