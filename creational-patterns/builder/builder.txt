@@ -1,0 +1,5 @@
+Builder Pattern 
+The builder pattern is a creational design pattern that separates the construction of a complex object from its representation, allowing the same construction process to create different types or variations of objects.
+
+My example:
+The Builder pattern is used to construct two different types of characters: MaleCharacter and a FemaleCharacter. Both of these are built through dedicated builders.
