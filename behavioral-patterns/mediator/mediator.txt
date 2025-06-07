@@ -1,0 +1,6 @@
+Mediator Pattern
+
+Mediator pattern is a behavioral design pattern that centralizes communication between objects to reduce dependencies between them.
+
+My example:
+Using SmartHomeMediator to invoke Light methods when MotionSensor notifies it.
