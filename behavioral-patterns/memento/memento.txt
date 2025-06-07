@@ -1,0 +1,5 @@
+Memento Pattern
+The Memento pattern is a behavioral design pattern used to capture and restore an object's internal state without violating encapsulation. It’s useful when you need undo/redo functionality or time-travel-like state recovery.
+
+My example:
+Creating three classes Player, Memento and Caretaker. Player is the Originator, it creates Memento with its attributes, and can later restore saved state. Caretaker holds Memento for backup and restore purposes.
