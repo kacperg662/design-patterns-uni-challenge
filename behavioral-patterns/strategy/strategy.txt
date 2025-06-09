@@ -1,0 +1,5 @@
+Strategy Pattern 
+It is a behavioral design pattern that enables selecting an algorithm's behavior at runtime. It defines a family of algorithms, encapsulates each one, and makes them interchangeable. This pattern allows the algorithm to vary independently from the clients that use it.
+
+My example:
+PaymentStrategy interface represents the general strategy for making a payment. Each class implements this interface, providing its own specific way to process a payment. The ShoppingCart class acts as the context that holds a reference to a PaymentStrategy. 
