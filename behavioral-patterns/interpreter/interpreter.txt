@@ -1,0 +1,5 @@
+Interpreter Pattern 
+It is a behavioral design pattern used to evaluate sentences in a language by representing its grammar as a set of classes. It defines a way to interpret expressions by breaking them down into smaller components, which can be either terminal (simple values) or non-terminal (complex operations).
+
+My example:
+Simple mathematical expression evaluator. The Expression interface declares the interpret() method, which is implemented by concrete classes: Number (terminal) represents a numeric value. Add and Subtract (non-terminal) combine two expressions and perform arithmetic operations.
