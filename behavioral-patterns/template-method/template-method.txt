@@ -1,0 +1,5 @@
+The Template Method Pattern 
+Defines the skeleton of an algorithm in a base class but lets subclasses override specific steps of the algorithm without changing its structure. It is commonly used when multiple classes share the same general process but differ in the implementation of some steps.
+
+My example:
+The abstract class PrepareDrink represents the template method pattern. It declares a method prepare(drink: String): String, which defines the overall procedure for preparing a drink. This method relies on several steps such as glass(), pour(), and addExtras(), which are defined or overridden by subclasses.
