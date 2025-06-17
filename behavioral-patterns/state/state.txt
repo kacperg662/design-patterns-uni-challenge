@@ -1,0 +1,5 @@
+The State Pattern 
+Itis a behavioral design pattern that allows an object to alter its behavior when its internal state changes. It encapsulates the state-specific logic into separate classes, promoting cleaner, more maintainable code by eliminating complex conditional statements.
+
+My example:
+The Player class represents the context whose behavior depends on its current energy level. Instead of handling energy-related logic within the Player class itself I use a hierarchy of state classes—FullEnergy, GoodEnergy, and LowEnergy that extend an abstract State class.
