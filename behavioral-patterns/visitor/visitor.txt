@@ -1,0 +1,5 @@
+The Visitor pattern 
+It is a behavioral design pattern that allows you to add new operations to existing object structures without modifying the classes of the elements on which it operates. It separates an algorithm from the object structure on which it works, enabling cleaner organization of code that performs different kinds of operations on objects of different types.
+
+My example:
+Visitor interface defines a method visitCompoundShape, which is implemented by the XMLExportVisitor class. This allows XMLExportVisitor to "visit" a CompoundShape and perform a specific operation: exporting it to XML without modifying the CompoundShape class itself. The Shape interface includes an accept method that takes a Visitor, and CompoundShape implements this method by calling the visitor's visitCompoundShape method, passing itself as an argument.
