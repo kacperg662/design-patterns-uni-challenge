@@ -1,0 +1,5 @@
+The Flyweight pattern 
+It is a structural design pattern that reduces memory usage by sharing common, immutable data between many objects instead of duplicating it. It splits object state into: Intrinsic state (shared) and Extrinsic state (unique).
+
+My example:
+Flyweight pattern is used to manage trees in a forest efficiently. Each tree has its unique position (x, y), but many trees share the same type information, such as name, color, and texture. This shared type information is stored in the TreeType class, and a TreeFactory is responsible for creating and managing these shared types.
